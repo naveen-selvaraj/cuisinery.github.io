@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- color of address bar in mobile browser -->
+	<meta name="theme-color" content="#28292C">
+	<!-- favicon  -->
+	<link rel="shortcut icon" href="img/light/title-logo.png" type="image/x-icon">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+	<!-- font awesome css -->
+	<link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+	<!-- swiper css -->
+	<link rel="stylesheet" href="css/plugins/swiper.min.css">
+	<!-- fancybox css -->
+	<link rel="stylesheet" href="css/plugins/fancybox.min.css">
+	<!-- mapbox css -->
+	<link href="css/plugins/mapbox-style.css" rel='stylesheet'>
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style-light.css">
+	<link rel="stylesheet" href="css/gradient.css" rel='stylesheet'>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+	<title>Cuisinery</title>
+
+</head>
+
+<body>
+	
+	<div class="floating-container">
+	<div class="floating-button"><a href="">  <i class="material-icons">phone
+	</i></a>
+	</span></div>
+	<!-- <div class="element-container">
+
+		<a href="google.com"> <span class="float-element tooltip-left">
+		<i class="material-icons">phone
+		</i></a>
+		</span>
+		<span class="float-element">
+		<i class="material-icons">email
+	</i>
+		</span>
+		<span class="float-element">
+		<i class="material-icons">chat</i>
+		</span>
+	</div> -->
+	
+	</div>
+
+	<div class="mry-app">
+
+		<!-- preloader -->
+		<div class="mry-preloader mry-active">
+			<div class="mry-preloader-content">
+				<img class="mry-logo mry-mb-20 rotate" src="img/light/logo1.png" alt="Cuisinery">
+				<div class="mry-loader-bar">
+					<div class="mry-loader"></div>
+				</div>
+				<div class="mry-label">Please wait</div>
+			</div>
+		</div>
+		<!-- preloader end -->
+
+		<!-- top panel -->
+		<div class="mry-top-panel home-background">
+			
+			<header class="col-12 navbar navbar-responsive">
+				<div class="container navbar-container d-flex">
+				  <div class="brand js-target-scroll">
+					Cuisinery
+				  </div>
+		  
+				  <!-- Navigation Desctop -->
+		  
+				  <nav class="nav nav-desktop hidden-xs hidden-sm">
+					<ul class="nav-desctop-list">
+					   <li><a href="#home">Home</a></li>
+					   <li><a href="#concepts">Concepts</a></li>
+					   <li><a href="#whywe">Services</a></li>
+					   <li><a href="#works">Works</a></li>
+					   <li><a href="#team">Team</a></li>
+					   <li><a href="#clients">Clients</a></li>
+					   <!-- <li><a href="#news">News</a></li> -->
+					</ul>
+				  </nav>
+		  
+				  <!-- Navigation Mobile -->
+		  
+				  <button class="menu navbar-button" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'),document.getElementById('nav-collapse').classList.toggle('grow'))" aria-label="Main Menu">
+					<svg width="40" height="40" viewBox="0 0 100 100">
+					  <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+					  <path class="line line2" d="M 20,50 H 80" />
+					  <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+					</svg>
+				</button>
+				<nav class="nav nav-mobile">
+					<div class="collapse" id="nav-collapse"> 
+					  <ul class="nav-mobile-list">
+						 <li><a href="#home">Home</a></li>
+						 <li><a href="#concepts">Concepts</a></li>
+						 <li><a href="#whywe">Services</a></li>
+						 <li><a href="#works">Works</a></li>
+						 <li><a href="#team">Team</a></li>
+						 <li><a href="#clients">Clients</a></li>
+						 <!-- <li><a href="#news">News</a></li> -->
+					  </ul>
+					</div>
+				  </nav>
+				</div>
+			  </header>
+			  
+		</div>
+	
+		<div  class="transition-fade" id="home">
+			<div class="mry-content-frame" id="scroll">
+				<canvas class="mry-dots"></canvas>
+
+				<div class="swiper-container1 mry-main-slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+
+							<!-- project -->
+							<div class="mry-project-slider-item">
+								<div class="mry-project-frame mry-project-half">
+									<div class="mry-cover-frame">
+										<img class="mry-project-cover" src="img/light/Hero-sections/slide1.jpg" alt="Project" data-swiper-parallax="500" data-swiper-parallax-scale="1.4">
+										<div class="mry-cover-overlay"></div>
+										<div class="mry-main-title-frame">
+											<div class="container">
+												<div class="mry-main-title corosuel-text" data-swiper-parallax-x="30%" data-swiper-parallax-scale=".7" data-swiper-parallax-opacity="0"
+													data-swiper-parallax-duration="1000">
+													<!-- <div class="mry-subtitle mry-mb-20">RESTAURANT </div> -->
+													<h1 class="mry-mb-30 text-color corosuel-header ">Interior<br><span class="mry-border-text text-color">Design</span><span class="mry-animation-el"></span></h1>
+													<!-- <div class="mry-text mry-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci distinctio iure, rerum non fugit.</div> -->
+													<a class="mry-btn mry-default-link mry-anima-link text-color get-qoute-color" href="project.html">Get Quote</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<!-- project end -->
+
+						</div>
+						<div class="swiper-slide">
+
+							<!-- project -->
+							<div class="mry-project-slider-item">
+								<div class="mry-project-frame mry-project-half">
+									<div class="mry-cover-frame">
+										<img class="mry-project-cover" src="img/light/Hero-sections/cafeteria.jpeg" alt="Project" data-swiper-parallax="500" data-swiper-parallax-scale="1.4">
+										<div class="mry-cover-overlay"></div>
+									</div>
+									<div class="mry-main-title-frame">
+										<div class="container">
+											<div class="mry-main-title" data-swiper-parallax-x="30%" data-swiper-parallax-scale=".7" data-swiper-parallax-opacity="0"
+												data-swiper-parallax-duration="1000">
+												<!-- <div class="mry-subtitle mry-mb-20"></div> -->
+												<h1 class="mry-mb-30 text-color corosuel-header">Cafteria<br><span class="mry-border-text text-color">Planning</span><span class="mry-animation-el"></span></h1>
+												<!-- <div class="mry-text mry-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci distinctio iure, rerum non fugit.</div> -->
+												<a class="mry-btn mry-default-link mry-anima-link text-color get-qoute-color" href="project.html">Get Qoute</a>
+												<!-- <a class="mry-btn-text mry-default-link mry-anima-link" href="portfolio-grid-1.html">All Projects</a> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- project end -->
+
+						</div>
+						<div class="swiper-slide">
+
+							<!-- project -->
+							<div class="mry-project-slider-item">
+								<div class="mry-project-frame mry-project-half">
+									<div class="mry-cover-frame">
+										<img class="mry-project-cover" src="img/light/Hero-sections/ESI-16.jpg" alt="Project" data-swiper-parallax="500" data-swiper-parallax-scale="1.4">
+										<div class="mry-cover-overlay"></div>
+									</div>
+									<div class="mry-main-title-frame">
+										<div class="container">
+											<div class="mry-main-title" data-swiper-parallax-x="30%" data-swiper-parallax-scale=".7" data-swiper-parallax-opacity="0"
+												data-swiper-parallax-duration="1000">
+												<!-- <div class="mry-subtitle mry-mb-20">slide 3</div> -->
+												<h1 class="mry-mb-30 text-color corosuel-header">Restro Bars<br><span class="mry-border-text text-color">Country house</span><span class="mry-animation-el"></span></h1>
+												<!-- <div class="mry-text mry-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci distinctio iure, rerum non fugit.</div> -->
+												<a class="mry-btn mry-default-link mry-anima-link text-color get-qoute-color" href="project.html">Get Qoute</a>
+												<!-- <a class="mry-btn-text mry-default-link mry-anima-link" href="portfolio-grid-1.html">All Projects</a> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- project end -->
+
+						</div>
+					</div>
+				</div>
+
+				<div class="mry-slider-pagination-frame">
+					<div class="mry-slider-pagination"></div>
+				</div>
+
+				<div class="mry-slider-nav-panel">
+					<div class="container">
+						<div class="mry-slider-progress-bar-frame">
+							<div class="mry-slider-progress-bar">
+								<div class="mry-progress"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="col-12 d-flex work-hard-section" id="concepts">
+		<div class="banner">
+			<h1 class="animate__animated title" data-aos="fade-right">We Do the Hard Work So You Don't Have To </h1>
+		</div>
+		
+	</div>
+	<section class="timeline">
+		<img class="anime-text-image" src="img/light/projects/prjct-1/BGHorizondal-01.jpg" alt="Project">
+		<ul>
+		  <li>
+			<div>
+				<time><img class="test1" src="img/light/timeline/concept-planing.png" alt="Project"> </time>
+				<div>
+					<h4>THE CONCEPT PLANNING</h4>
+					<!-- <p>THE CONCEPT PLANNING</p> -->
+				  </div>
+			</div>
+			
+		  </li>
+		  
+		  <li>
+			<div>
+				<time class="test-left "><img class="test1 icon-animation" src="img/light/timeline/Validationicon.png" alt="Project"> </time>
+
+			  <div>
+			  <h4>VALIDATING YOUR CONCEPT</h4>
+			  <!-- <p>THE PATH TO A PROFITABLE
+				RESTAURANT BUSINESS</p> -->
+			  </div>
+			</div>
+		  </li>
+		  
+		  <li>
+			<div>
+				<time><img class="test1" src="img/light/timeline/design-delicious.png" alt="Project"> </time>
+			  <div>
+			  <h4>DESIGNING DELICIOUSNESS</h4>
+			  <!-- <p>MENU PLANNING AND KITCHEN SETUP</p> -->
+			</div>
+			</div>
+		  </li>
+		  <li>
+			<div>
+				<time><img class="test1" src="img/light/timeline/building-team.png" alt="Project"> </time>
+			  <div>
+			  <h4>BUILDING A WINNING TEAM</h4>
+			  <!-- <p>STAFF HIRING AND TRAINING</p> -->
+			</div>
+			</div>
+		  </li>
+		  <li>
+			<div>
+				<time><img class="test1" src="img/light/timeline/tren-study.png" alt="Project"> </time>
+			  <div>
+			  <h4> TREND STUDY</h4>
+			  <!-- <p>MAXIMIZING YOUR RESTAURANT'S POTENTIAL</p> -->
+			</div>
+			</div>
+		  </li>
+		  <li>
+			<div>
+				<time><img class="test1 icon-animation" src="img/light/timeline/market-study.png" alt="Project"></time>
+			  <div>
+			  <h4> EXPERT F&B MARKET STUDY</h4>
+			  <!-- <p>UNDERSTANDING YOUR CUSTOMERS</p> -->
+			</div>
+			</div>
+		</li>
+		  </li>
+		  
+		</ul>
+	  </section>
+	  <div class="col-lg-12" id="works">
+
+		<div class="mry-main-title mry-title-center mry-p-0-40">
+			<div class="mry-numbering mry-fo">
+				<div class="mry-subtitle">Our Works</div>
+			</div>
+			<h2 class="mry-fo">Expert Consulting for the Modern Hospitality Business</h2>
+		</div>
+
+	</div>
+	  <main class="works-view" data-aos="fade-up">
+		<div class = "card">
+		  <img src="img/light/works/restaurants.jpeg" alt="">
+		  <div class="card-content">
+			<h2 class="card-text-color hover-text">
+			  Restaurant Interiors
+			</h2>
+			<!-- <p class="card-description-color">
+				Intimate and cozy, our restaurant's interior design features warm lighting, rustic wooden furniture, and unique artwork that captures the essence of the local community.
+			</p> -->
+		  </div>
+		</div>
+		<div class = "card">
+			<img src="img/light/works/Kiosk.jpeg" alt="">
+			<div class="card-content">
+			  <h2 class="card-text-color">
+				Self-Service Kiosks
+			  </h2>
+			  <!-- <p class="card-description-color">
+				A self-service kiosk acts as a self-order POS system. Customers place and pay for their own orders at kiosks.
+			  </p> -->
+			</div>
+		  </div>
+		  <div class = "card">
+			<img src="img/light/works/restro-bars.jpg" alt="">
+			<div class="card-content">
+			  <h2 class="card-text-color">
+				Restro Bars
+			  </h2>
+			  <!-- <p class="card-description-color">
+				Elevate your dining experience with our stunning restro bar interiors. Sip on cocktails while surrounded by modern design, chic lighting, and a warm atmosphere.
+			  </p> -->
+			</div>
+		  </div>
+	  </main>
+	  <main class="works-view">
+		<div class = "card" data-aos="fade-up">
+		  <img src="img/light/works/BBQon wheels.jpeg">
+		  <div class="card-content">
+			<h2 class="card-text-color">
+			  BBQ on wheels
+			</h2>
+		  </div>
+		</div>
+		<div class = "card" data-aos="fade-up">
+			<img src="img/light/works/Commercial kitchen.jpeg" alt="">
+			<div class="card-content">
+			  <h2 class="card-text-color">
+			Commercial kitchen
+			  </h2>
+			</div>
+		  </div>
+		  <div class = "card" data-aos="fade-up">
+			<img src="img/light/works/cafeteria.jpeg" alt="">
+			<div class="card-content">
+			  <h2 class="card-text-color">
+				Cafeteria Designing
+			  </h2>
+			  <!-- <p class="card-description-color">
+				Our cafeteria boasts a modern and sleek design, with bright colors and comfortable seating arrangements for a welcoming atmosphere.
+			  </p> -->
+			</div>
+		  </div>
+	  </main>
+	  <div class="mry-about" id="whywe">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="mry-numbering mry-fo">
+					<div class="mry-border-text">01</div>
+					<div class="mry-subtitle auto-caps-off"><h3 class="mry-mb-40 mry-fo">Why We're the Best in the Business</h3>
+					<p class = "mry-text mry-fo">As a business owner in the competitive hospitality industry, you know how challenging it can be to stay ahead of the curve. That's where we come in - our expert consulting services are designed to help you transform your restaurant, cafe, or hotel into a thriving business that attracts loyal customers and generates maximum profits. </p>
+					</div>
+				</div>
+				<div  class = "service-section" style="width:100%;">
+					<div class="service-section-div" data-aos="fade-right">
+					<img class="service-image" src="img/light/work-service/slide1.jpg">
+					</div>
+
+					<div  class="mry-mb-100 mry-text-center service-section-div"  data-aos="fade-left">
+						<div>
+							<h3 class="mry-mb-40 mry-fo">Industry Expertise</h3>
+						<p class="mry-text mry-fo">Our team of experienced consultants has worked with a wide range of restaurants, cafes, and hotels, from small mom-and-pop shops to large chains, and we know what it takes to succeed.</p>
+						</div>				
+					</div>
+
+				</div>
+				<div  class="service-section" style="width:100%">
+					<div class="service-section-div mobile-view" data-aos="fade-left">
+						<img class="service-image" src="img/light/work-service/customized-solution-bar.avif">
+					</div>
+					
+					<div  class="mry-mb-100 mry-text-center service-section-div" data-aos="fade-right">
+						<div>
+							<h3 class="mry-mb-40 mry-fo">Customized Solutions</h3>
+						<p class="mry-text mry-fo">We don't believe in a one-size-fits-all approach. Instead, we work closely with you to understand your unique challenges and develop customized strategies that address your specific needs.</p>
+						</div>				
+					</div>
+					<div class="service-section-div desktop-view" data-aos="fade-left">
+						<img class="service-image" src="img/light/work-service/customized-solution-bar.avif">
+					</div>
+	
+
+				</div>
+				<div  class = "service-section" style="width:100%;">
+					<div class="service-section-div" data-aos="fade-right">
+					<img class="service-image" src="img/light/work-service/analytics.jpg">
+					</div>
+
+					<div  class="mry-mb-100 mry-text-center service-section-div"  data-aos="fade-left">
+						<div>
+							<h3 class="mry-mb-40 mry-fo">Data-Driven Approach</h3>
+						<p class="mry-text mry-fo">We use data analysis and market research to identify trends and opportunities in the industry, so you can stay ahead of the competition.</p>
+						</div>				
+					</div>
+
+				</div>
+				<div  class="service-section" style="width:100%;">
+					<div class="service-section-div mobile-view" data-aos="fade-left">
+						<img class="service-image" src="img/light/work-service/result-oriented.jpg">
+					</div>
+					
+					<div  class="mry-mb-100 mry-text-center service-section-div" data-aos="fade-right">
+						<div>
+							<h3 class="mry-mb-40 mry-fo">Results-Oriented</h3>
+						<p class="mry-text mry-fo">We are focused on delivering tangible results for your business, whether that's increasing revenue, improving customer satisfaction, or streamlining operations.</p>
+						</div>				
+					</div>
+					<div class="service-section-div desktop-view" data-aos="fade-left">
+						<img class="service-image" src="img/light/work-service/result-oriented.jpg">
+					</div>
+	
+
+				</div>
+
+				<div class="col-lg-12" id="clients">
+
+					<div class="mry-main-title mry-title-center mry-p-0-40">
+						<div class="mry-numbering mry-fo">
+							<div class="mry-subtitle">Our Clients</div>
+						</div>
+						<h2 class="mry-fo header-text auto-caps-off">Brands That We Created From Complete Scratch!</h2>
+					</div>
+					<div class="slider">
+						<div class="slide-track">
+							<div class="slide">
+								<img src="img/light/Brand-logo/Therepublik.png" height="100" width="250" alt="" />
+							</div>
+							<div class="slide">
+								<img src="img/light/Brand-logo/ajantha.png" height="100" width="250" alt="" />
+							</div>
+							<div class="slide">
+								<img src="img/light/Brand-logo/grandfoods.png" height="100" width="250" alt="" />
+							</div>
+							<div class="slide">
+								<img src="img/light/Brand-logo/PAIISEBARKITCHEN.png" height="100" width="250" alt="" />
+							</div>
+							<div class="slide">
+								<img src="img/light/Brand-logo/vault.png" height="100" width="250" alt="" />
+							</div>
+							<div class="slide">
+								<img src="img/light/Brand-logo/ravanavilas.png" height="100" width="250" alt="" />
+							</div>
+						</div>
+					</div>
+			
+				</div>
+				
+				<div class="col-lg-12" id="team">
+
+					<div class="mry-main-title mry-title-center mry-p-0-40">
+						<div class="mry-numbering mry-fo">
+							<div class="mry-border-text">04</div>
+							<div class="mry-subtitle">Our Ceo</div>
+						</div>
+						<h2 class="mry-fo header-text">Meet The Mastermind Behind Our Success</h2>
+						<!-- <div class="mry-arrows mry-fo">
+							<div class="mry-sl-nav">
+								<div class="mry-prev mry-button-team-prev mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-left"></i></span></div>
+								<div class="mry-next mry-button-team-next mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-right"></i></span></div>
+							</div>
+							<div class="mry-label mry-fo">Slider Navigation</div>
+						</div> -->
+					</div>
+
+				</div>
+				<div class="col-lg-10">
+
+					<div class="swiper-container mry-team-slider mry-mb-100">
+						<div class="swiper-wrapper ceo-text">
+							<div class="swiper-slide1 image-zoom">
+
+								<div class="mry-team-member mry-text-center">
+									<div class="mry-member-photo-frame mry-fo">
+										<img src="img/light/team/arun.jpg" alt="Team member" >
+										<div class="mry-photo-overlay"></div>
+										<div class="mry-curtain"></div>
+									</div>
+									<h4 class="mry-mb-10 mry-fo">Mr.Arun</h4>
+									<p class="mry-text mry-simple-text mry-fo">Global hospitality and restaurant consultant</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide1 ceo-about-text">
+									<p class="mry-text about-text mry-simple-text mry-fo">Mr. Arun is a global hospitality and restaurant consultant with over 24 years of experience in India, Europe, Africa, Asia, and the Middle East as well USA- living and breathing great hotel brands and contributing to some of the most respected hotel and restaurant groups worldwide. While based in Chennai India, we embrace working for clients with projects, missions, or challenges in the whole Country.</p>
+							</div>
+							<!-- <div class="swiper-slide">
+
+								<div class="mry-team-member mry-text-center">
+									<div class="mry-member-photo-frame mry-fo">
+										<img src="img/light/team/team-3.jpg" alt="Team member" >
+										<div class="mry-photo-overlay"></div>
+										<div class="mry-curtain"></div>
+									</div>
+									<h4 class="mry-mb-10 mry-fo">Mike Oldman</h4>
+									<p class="mry-text mry-simple-text mry-fo">UI/UX Designer</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide">
+
+								<div class="mry-team-member mry-text-center">
+									<div class="mry-member-photo-frame mry-fo">
+										<img src="img/light/team/team-4.jpg" alt="Team member" >
+										<div class="mry-photo-overlay"></div>
+										<div class="mry-curtain"></div>
+									</div>
+									<h4 class="mry-mb-10 mry-fo">Emma Newman</h4>
+									<p class="mry-text mry-simple-text mry-fo">UI/UX Designer</p>
+								</div>
+
+							</div> -->
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-12" >
+
+					<div class="mry-main-title mry-title-center mry-p-0-40">
+						<div class="mry-numbering mry-fo">
+							<div class="mry-border-text">06</div>
+							<div class="mry-subtitle">Testimonials</div>
+						</div>
+						<h2 class="mry-fo">Our customers say</h2>
+						<div class="mry-arrows">
+							<div class="mry-sl-nav mry-fo">
+								<div class="mry-prev mry-button-testimonials-prev mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-left"></i></span></div>
+								<div class="mry-next mry-button-testimonials-next mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-right"></i></span></div>
+							</div>
+							<div class="mry-label mry-fo">Slider Navigation</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-8">
+
+					<div class="swiper-container mry-testimonials-slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+
+								<div class="mry-title-center">
+									<img src="img/light/clients/c-1.jpg" alt="client" class="mry-reviewer mry-mb-20 mry-fo">
+									<h4 class="mry-mb-20 mry-fo">Arun Kannan</h4>
+									<div class="mry-subtitle mry-mb-20 mry-fo">Ravana Vilas</div>
+									<p class="mry-text mry-fo">"I had the pleasure of working with Mr. Arun as a consultant for my Beer Cafe, and I couldn't be happier with the results. His knowledge and experience in the industry were evident from the start and were able to provide valuable insights and recommendations that helped us to a streamlined operations and increase our revenue. Their attention to detail and dedication to our success made them an invaluable asset to our team. I highly recommend Cuisinery team, led by Mr.Arun!" </p>
+									<ul class="mry-star-rate mry-fo">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+								</div>
+
+							</div>
+							<div class="swiper-slide">
+
+								<div class="mry-title-center">
+									<img src="img/light/clients/c-2.jpg" alt="client" class="mry-reviewer mry-mb-20 mry-fo">
+									<h4 class="mry-mb-20 mry-fo">Mr. Muthu Rathinam</h4>
+									<div class="mry-subtitle mry-mb-20 mry-fo">The Republik Beer Cafe</div>
+									<p class="mry-text mry-fo">"I had the pleasure of working with Mr. Arun as a consultant for my Beer Cafe, and I couldn't be happier with the results. His knowledge and experience in the industry were evident from the start and were able to provide valuable insights and recommendations that helped us to a streamlined operations and increase our revenue. Their attention to detail and dedication to our success made them an invaluable asset to our team. I highly recommend Cuisinery team, led by Mr.Arun!"</p>
+									<ul class="mry-star-rate mry-fo">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li class="mry-empty"><i class="fas fa-star"></i></li>
+									</ul>
+								</div>
+
+							</div>
+							<div class="swiper-slide">
+
+								<div class="mry-title-center">
+									<img src="img/light/clients/c-3.jpg" alt="client" class="mry-reviewer mry-mb-20 mry-fo">
+									<h4 class="mry-mb-20 mry-fo">Thilak</h4>
+									<div class="mry-subtitle mry-mb-20 mry-fo">Hotel Ajanta Sea View</div>
+									<p class="mry-text mry-fo">"We had the pleasure of working with the Cuisinery team to start our Hotel operations, and we couldn't be happier with the results. Their insights and recommendations helped us to create a unique menu, style of our service, and the additional revenure stream. They were always available to answer our questions and provide guidance, and their dedication to our success was truly remarkable. We highly recommend Mr. Arun to anyone looking to build their Hotel just with a vision!"</p>
+									<ul class="mry-star-rate mry-fo">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li class="mry-empty"><i class="fas fa-star"></i></li>
+									</ul>
+								</div>
+
+							</div>
+							<div class="swiper-slide">
+
+								<div class="mry-title-center">
+									<img src="img/light/clients/c-3.jpg" alt="client" class="mry-reviewer mry-mb-20 mry-fo">
+									<h4 class="mry-mb-20 mry-fo">Arun Kannan</h4>
+									<div class="mry-subtitle mry-mb-20 mry-fo"> Ravana Vilas</div>
+									<p class="mry-text mry-fo">I had a dream of starting a restaurant, but I had no idea where to start. That's when I reached out to Mr. Arun, and I'm so glad I did. He & his team were patient, knowledgeable, and incredibly supportive throughout the entire process. They helped me identify my target market, develop my menu, and create a business plan that would set me up for success. Their expertise and guidance were invaluable, and they gave me the confidence to pursue my dream. Thanks to Mr. Arun, my restaurant is thriving, and I couldn't be happier with the results. I highly recommend Mr. Arun to anyone who has a dream of starting a restaurant but doesn't know where to begin. They will be with you every step of the way and help you turn your dream into a reality.</p>
+									<ul class="mry-star-rate mry-fo">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li class="mry-empty"><i class="fas fa-star"></i></li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mry-app">
+
+		<!-- preloader -->
+		<div class="mry-preloader mry-active">
+			<div class="mry-preloader-content">
+				<img class="mry-logo mry-mb-20 rotate" src="img/light/logo1.png" alt="Cuisinery">
+				<img class="mry-logo mry-mt-20" style="display: block; margin-left:60px; margin-bottom:30px;" src="img/light/LogoText (1).png" alt="Cuisinery">
+				<div class="mry-loader-bar">
+					<div class="mry-loader"></div>
+				</div>
+				<div class="mry-label">Please wait</div>
+			</div>
+		</div>
+		<!-- preloader end -->
+
+		<!-- cursor -->
+		<div class="mry-magic-cursor">
+			<div class="mry-ball">
+				<div class="mry-loader">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 50 50"
+						style="enable-background:new 0 0 50 50;" xml:space="preserve">
+						<path d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
+							<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite" />
+						</path>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<!-- cursor end -->
+
+		<!-- top panel -->
+		<!-- <div class="mry-top-panel">
+			<div class="mry-logo-frame">
+				<a href="index.html" class="mry-default-link mry-anima-link">
+					<img class="mry-logo" src="img/light/logo.svg" alt="Mireya">
+				</a>
+			</div>
+			<div class="mry-menu-button-frame">
+				<div class="mry-label">Menu</div>
+
+				<div class="mry-menu-btn mry-magnetic-link">
+					<div class="mry-burger mry-magnetic-object">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- top panel end -->
+
+		<!-- menu -->
+		
+		<!-- menu end -->
+		<footer id="footer" class="footer footer-element">     
+			<div class="container">
+			  <div class="row-base row">
+				<div class="brand-info col-base col-sm-6 col-md-4">
+				  <a href="#top" class="brand js-target-scroll">
+					Cuisinery
+				  </a>
+				  <p style = "color: whitesmoke;">Transform Your Business with Expert Restaurant, Cafe, and Hotel Consulting.</p>
+				</div>
+	
+				<!-- <div class="col-contacts col-base col-sm-6 col-md-4 col-md-offset-1">
+				  <a href="tel:88005553535" class="phone">+8 800 555 35 35</a><br>
+				  <a href="mailto:info@Archiko.com" class="email">info@Archiko.com</a>
+				</div>
+				<div class="col-subscribe col-base col-sm-6 col-md-3">
+				  <div class="subscribe-title">Subscribe to our newsletter</div>
+				  <form class="subscribe-form js-subscribe-form">
+					<div class="input-group">
+					  <input id="mc-email" type="email" class="input-round form-control" placeholder="Email">
+					  <span class="input-group-btn">
+						<button class="btn btn-dark" type="submit"><span class="arrow-right"></span></button>
+					  </span>
+					</div>
+					<label class="mc-label" for="mc-email" id="mc-notification"></label>
+				  </form>
+				</div> -->
+			  </div>
+			</div>
+			<div class="footer-bottom">
+			  <div class="container">
+				  <div class="copyrights">
+				  © Copyright 2023 Cuisinery. All Rights Reserved
+				  </div>
+				  <ul class="social-list">
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-linkedin"></a></li>
+					<li><a href="#" class="fa fa-instagram"></a></li>
+				  </ul>  
+			  </div>
+			</div>
+		  </footer>
+		</div>
+	
+
+	</div>
+
+
+	<!-- jquery js -->
+	<script src="js/plugins/jquery.min.js"></script>
+	<!-- tween max js -->
+	<script src="js/plugins/tween-max.min.js"></script>
+	<!-- scroll magic js -->
+	<script src="js/plugins/scroll-magic.js"></script>
+	<!-- scroll magic gsap plugin js -->
+	<script src="js/plugins/scroll-magic-gsap-plugin.js"></script>
+	<!-- swiper js -->
+	<script src="js/plugins/swiper.min.js"></script>
+	<!-- isotope js -->
+	<script src="js/plugins/isotope.min.js"></script>
+	<!-- fancybox js -->
+	<script src="js/plugins/fancybox.min.js"></script>	
+	<!-- mapbox js -->
+	<script src="js/plugins/mapbox.min.js"></script>
+	<!-- smooth scrollbar js -->
+	<script src="js/plugins/smooth-scrollbar.min.js"></script>
+	<!-- overscroll js -->
+	<script src="js/plugins/overscroll.min.js"></script>
+	<!-- canvas js -->
+	<script src="js/plugins/canvas.js"></script>
+	<!-- parsley js -->
+	<script src="js/plugins/parsley.min.js"></script>	
+	<!-- main js -->
+	<script src="js/main.js"></script>
+	<script src="js/gradient.js"></script>
+	<link rel="stylesheet/less" type="text/css" href="styles.less" />
+	<script src="less.js" type="text/javascript"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        once: false,
+		mirror:true,
+      });
+    </script>
+
+</body>
+
+</html>
