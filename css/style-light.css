@@ -2982,6 +2982,9 @@ div.banner > h1 {
 	
   }
 
+  .desktop-view{
+	margin-left:10%;
+  }
   .footer-element{
 	background-color: #000;
   }
@@ -3014,6 +3017,7 @@ div.banner > h1 {
   .service-image {
 	width: 500px !important;
 	height: 300px;
+	border-radius:10px;
   }
 
   .service-section{
@@ -3227,10 +3231,13 @@ main {
 	transition: inset 0.3s 0.3s ease-out;
 	font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
 	font-weight: normal;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	white-space: nowrap;
 	color: #ffff;
-	background-color: #005687;
+	background-color: #00000075;
+	border-radius: 5px;
+	padding-left:10px;
+	padding-right: 10px;
 }
 .card p, .card a {
 	position: absolute;
@@ -3252,6 +3259,7 @@ main {
 	transition: inset 0.3s ease-out;
 	color: #ffffff;
 	background-color: #00000075;
+	border-radius: 5px;;
 }
 .card:hover p, .card:hover a {
 	opacity: 1;
