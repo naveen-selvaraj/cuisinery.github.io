@@ -2914,6 +2914,11 @@ div.banner > h1 {
 
 
   @media screen and (max-width: 767px) {
+	html{
+		width: 100vw !important;
+		height: 100vh !important;
+		overflow-x: hidden;
+	  }
 	.nav-desktop{
 		display: none !important;
 	}
@@ -2977,6 +2982,9 @@ div.banner > h1 {
 	.ceo-about-text{
 		margin-left:0px !important;
 	}
+	.service-image{
+		width: 250px !important;
+	}
 
 
 	
@@ -3015,7 +3023,7 @@ div.banner > h1 {
 
   }
   .service-image {
-	width: 500px !important;
+	width: 500px;
 	height: 300px;
 	border-radius:10px;
   }
@@ -3298,6 +3306,75 @@ main {
 	}
   }
 
+
+  /* test 
+  */
+
+  #email-popup {
+	position: absolute;
+	z-index: 4000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  #email-form {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+  }
+  
+  #email-form h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  #email-form p {
+	font-size: 16px;
+	margin-bottom: 20px;
+  }
+  
+  #email-input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+  }
+  
+  #submit-btn {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #008CBA;
+	color: white;
+	cursor: pointer;
+  }
+  
+  #submit-btn:hover {
+	background-color: #005D6E;
+  }
+  
+  #close-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #aaa;
+	cursor: pointer;
+  }
+  
 
 
 
