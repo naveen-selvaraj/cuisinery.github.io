@@ -245,8 +245,9 @@ a, a:hover {
 		color: inherit !important;
 	}
 	.mry-text {
-		font-size: 14px;
+		font-size: 20px; 
 		line-height: 20px;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 	}
 	.mry-label, .mry-subtitle {
 		font-size: 10px;
@@ -2983,7 +2984,8 @@ div.banner > h1 {
 		margin-left:0px !important;
 	}
 	.service-image{
-		width: 250px !important;
+		width: 300px !important;
+		margin-left:10%;
 	}
 
 
