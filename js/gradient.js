@@ -52,24 +52,24 @@ function mouseover() {
 //   targets: '.word',
 //   scrollingElement: 'body' });
 
-// Open email popup when clicking a button or link
-document.getElementById("open-email-popup-btn").addEventListener("click", function() {
-  document.getElementById("email-popup").style.display = "block";
-});
+// // Open email popup when clicking a button or link
+// document.getElementById("open-email-popup-btn").addEventListener("click", function() {
+//   document.getElementById("email-popup").style.display = "block";
+// });
 
-// Close email popup when clicking the close button or outside the popup
-document.getElementById("email-popup").addEventListener("click", function(event) {
-  if (event.target === this || event.target.id === "close-btn") {
-    document.getElementById("email-popup").style.display = "none";
-  }
-});
+// // Close email popup when clicking the close button or outside the popup
+// document.getElementById("email-popup").addEventListener("click", function(event) {
+//   if (event.target === this || event.target.id === "close-btn") {
+//     document.getElementById("email-popup").style.display = "none";
+//   }
+// });
 
-// Send email logic
-document.getElementById("email-form").addEventListener("submit", function(event) {
-  event.preventDefault(); // prevent form submission
-  var email = document.getElementById("email-input").value;
-  // code to send email using email variable
-  // ...
-  alert("Thank you for subscribing!");
-  document.getElementById("email-popup").style.display = "none"; // close popup after submission
-});
+// // Send email logic
+// document.getElementById("email-form").addEventListener("submit", function(event) {
+//   event.preventDefault(); // prevent form submission
+//   var email = document.getElementById("email-input").value;
+//   // code to send email using email variable
+//   // ...
+//   alert("Thank you for subscribing!");
+//   document.getElementById("email-popup").style.display = "none"; // close popup after submission
+// });

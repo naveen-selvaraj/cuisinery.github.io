@@ -34,6 +34,28 @@
 </head>
 
 <body>
+	<div class="popup">
+		<div class="popup-content">
+		  <span class="close-btn">&times;</span>
+		  <h2 class="popup-text">Subscribe to our newsletter</h2>
+		  <form id="subscribe-form">
+			<label class = "popup-text" for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+	  
+			<label class = "popup-text" for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+	  
+			<label class = "popup-text"  for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+	  
+			<label class = "popup-text" for="looking-for">Looking for:</label>
+			<textarea id="looking-for" name="looking-for" rows="4" required></textarea>
+	  
+			<button type="submit">Subscribe</button>
+		  </form>
+		</div>
+	  </div>
+	  
 	
 	<div class="floating-container">
 		<div class="floating-button">+</div>
@@ -43,7 +65,7 @@
 			<i class="material-icons">phone
 			</i></a>
 		  </span>
-			<span class="float-element" id = "open-email-popup-btn">
+			<span class="float-element open-popup" id="popup-email">
 			<i class="material-icons">email
 	  </i>
 		  </span>
@@ -808,6 +830,7 @@
 	<script src="js/plugins/canvas.js"></script>
 	<!-- parsley js -->
 	<script src="js/plugins/parsley.min.js"></script>	
+	
 	<!-- main js -->
 	<script src="js/main.js"></script>
 	<script src="js/gradient.js"></script>
