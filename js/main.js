@@ -788,7 +788,7 @@ const modal = document.querySelectorAll(".popup");
 const btn = document.querySelector(".open-popup");
 
 // Get the <span> element that closes the modal
-const closeBtn = document.querySelector(".close-btn");
+const closeBtn = document.querySelectorAll(".close-btn");
 
 // When the user clicks the button, open the modal
 btn.addEventListener("click", function() {
