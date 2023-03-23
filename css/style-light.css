@@ -2695,7 +2695,7 @@ div.banner > h1 {
 	color: #fff;
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
-	/* -webkit-background-clip: text; */
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-font-smoothing: antialiased;
 	text-transform: uppercase;
