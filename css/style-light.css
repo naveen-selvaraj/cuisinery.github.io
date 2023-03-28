@@ -2235,7 +2235,7 @@ blockquote:after {
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
-	background-color: #15537a;
+	background-color: #252525;
   }
   
   .brand{
@@ -3675,6 +3675,9 @@ input.submitbutton.ripplelink {
 
 .contact-icon{
 	height:30px;
+}
+.logo-style{
+	height: 40px;
 }
 
 
