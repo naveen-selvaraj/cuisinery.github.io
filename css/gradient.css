@@ -161,9 +161,10 @@ body  {
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 40s linear infinite;
+  animation: scroll 20s linear infinite;
   display: flex;
   width: calc(250px * 14);
+  animation-iteration-count: infinite;
 }
 .slider .slide {
   height: 100px;
